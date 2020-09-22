@@ -53,8 +53,6 @@ Legg til verdiene følgende verdier:
 1) "Magnus"
 2) "Nils"
 3) "Sofie"
-
-Sjekk om verdiene finnes i listen.
 """
 
 

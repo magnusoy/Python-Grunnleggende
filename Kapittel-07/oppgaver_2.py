@@ -6,7 +6,7 @@ plukke ut er kjøleskapet.
 
 Hvis kjøeskapet inneholder matvaren så skal du printe ut antallet.
 Om matvaren ikke finnes i kjøleskapet så skal du printe ut at 
-kjøleskapet inneholder ikke denne matvaren.
+kjøleskapet ikke inneholder denne matvaren.
 
 """
 
@@ -46,7 +46,7 @@ Vi har et varelager med bakeverk.
 
 1) Lag en kopi av varelageret og kall det stock_list
 2) Legg til verdien 18 under nøkkel "Kjeks"
-3) Fjern "Kake fra stock_list
+3) Fjern "Kake" fra stock_list
 """
 
 inventory = {'Brød': 19, 'Rundstykke': 4, 'Muffins': 8, 'Kake': 1}

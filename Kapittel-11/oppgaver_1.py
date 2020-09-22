@@ -45,7 +45,7 @@ bare strings. Om ikke skal den returere False
 Eks:
 is_all_strings(["a", "b", "c"]) -> True
 is_all_strings([1, "a", "b", "c"]) -> False
-is_all_strings([heisann", "farvell"]) -> True
+is_all_strings(["heisann", "farvell"]) -> True
 
 Tips: Bruk all()
 """
@@ -59,9 +59,9 @@ Den skal returere en tuple som inneholder
 den laveste og høyeste verdien fra elementene.
 
 Eks:
-extreme([1, 2, 3, 4, 5, 6]) -> (1, 6)
-extreme([75, 234, 54, 76, 1, -4]) -> (-4, 234)
-extreme("norge") -> ("e", "n")
+extremes([1, 2, 3, 4, 5, 6]) -> (1, 6)
+extremes([75, 234, 54, 76, 1, -4]) -> (-4, 234)
+extremes("norge") -> ("e", "r")
 
 Tips: Bruk min() og max()
 """

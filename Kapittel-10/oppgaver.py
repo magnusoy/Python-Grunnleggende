@@ -9,7 +9,7 @@ Eks.
 contains_pink(21, "pink") -> True
 contains_pink("green", False, 37, "blue", "hello world") -> False
 contains_pink("pink") -> True
-contains_pink("PiNK") -> True
+contains_pink("PiNK") -> False
 contains_pink(1, 2, 3) -> False
 """
 

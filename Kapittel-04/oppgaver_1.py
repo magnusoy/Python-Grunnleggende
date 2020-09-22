@@ -47,14 +47,14 @@ navnet?
 
 Print resultetene i terminalen.
 """
-"""
+
 name = input("Ditt navn: ")
 if len(name) > 6:
     print("Navnet er lengre enn 6 bokstaver!")
 else:
     rest = 7 - len(name)
     print(f"{name} mangler {rest} bokstaver!")
-"""
+
 
 print("\n"*3)  # Ignorer
 """

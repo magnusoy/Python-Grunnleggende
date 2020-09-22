@@ -72,9 +72,3 @@ For å bekrefte om du har gjort ritkig:
 print(f"{len(result)}x{len(result[0])}") -> 10 x 10
 """
 
-result = []
-for i in range(0, 10):
-    result.append(list(range(10)))
-
-print(result)
-print(f"{len(result)}x{len(result[0])}")

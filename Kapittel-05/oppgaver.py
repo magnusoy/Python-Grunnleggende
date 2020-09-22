@@ -78,3 +78,7 @@ Om brukeren treffer ritkig tall så avslutter koden.
 Om brukeren skriver for stort tall så skal du be brukeren prøve et lavere tall.
 Om brukeren skriver for lite tall så skal du be brukeren prøve et høyere tall.
 """
+
+from random import randint
+
+random_number = randint(1, 10)
