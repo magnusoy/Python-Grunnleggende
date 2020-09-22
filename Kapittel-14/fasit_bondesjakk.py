@@ -46,7 +46,7 @@ def print_board():
         print(char, end=end)
 
 def select_char():
-    chars=("X", "O")
+    chars = ("X", "O")
     if random.randint(0, 1) == 0:
         return chars[::-1]
     return chars
@@ -60,7 +60,8 @@ def can_win(brd, player, move):
     places = []
     x = 0
     for i in brd:
-        if i == player: places.append(x);
+        if i == player: 
+            places.append(x);
         x += 1
     win = True
     for tup in winners:
@@ -81,7 +82,6 @@ def make_move(brd, player, move, undo=False):
             brd[move-1] = move-1
         return (True, win)
     return (False, False)
-
 
 def computer_move():
     move =- 1

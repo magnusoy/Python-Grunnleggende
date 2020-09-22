@@ -14,15 +14,31 @@ Søket fortsetter til tallet blir funnet eller størrelsen på undergruppen blir
 
 import random
 
-
 def binary_search(lst, number):
     """
     docstring
     """
-    # Skriv din kode her
+
+    mid = 0
+    start = 0
+    end = len(lst)
+    step = 0
+
+    while (start <= end):
+        step +=  1
+        mid = (start + end) // 2
+
+        if number == lst[mid]:
+            return mid
+
+        if number < lst[mid]:
+            end = mid - 1
+        else:
+            start = mid + 1
+    return -1
 
 
-
-numbers = random.sample(range(1, 50), 45)
+numbers = random.sample(range(1, 50), 46)
+numbers.sort()
 print(numbers)
 print(binary_search(numbers, 12))
