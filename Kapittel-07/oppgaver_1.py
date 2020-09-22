@@ -22,6 +22,8 @@ Oppgave 3
 
 Det har vært noen gjestfrie personer som har donert penger.
 Jeg ønsker å finne ut summen av alle donasjonene.
+
+Tips: Bruk donations.values() for å få verdiene
 """
 
 donations = dict(Per=250.0, Lene=888.99, Finn=130.0, Linus=990.5, Elisa=1500.0, Lisa=500.25, Markus=100.0)
