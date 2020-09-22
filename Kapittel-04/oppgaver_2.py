@@ -10,7 +10,7 @@ Finn ut om teksten inneholder dette ordet: brød
 txt = "Jeg må huske å kjøpe brød på butikken etterpå!"
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 2
 
@@ -23,7 +23,7 @@ Finn ut om teksten inneholder disse ordene: ost, brød
 txt = "Jeg må huske å kjøpe brød, syltetøy og ost på butikken etterpå!"
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 3
 
@@ -36,7 +36,7 @@ Finn ut om teksten inneholder en av ordene: ost, brød, syltetøy
 txt = "Jeg må huske å kjøpe brød, syltetøy og ost på butikken etterpå!"
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 4
 
@@ -50,7 +50,7 @@ i starten av teksten, eller i slutten.
 txt = "Jeg må huske å kjøpe brød"
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 5
 
@@ -61,7 +61,7 @@ Om tallet er et oddetall, så skal du sjekke om det er et primtall.
 """
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 6 (Utfordring)
 https://no.wikipedia.org/wiki/Stein,_saks,_papir

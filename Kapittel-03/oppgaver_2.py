@@ -7,7 +7,7 @@ følgende tekst: Dette er første delen
 
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 2
 
@@ -22,7 +22,7 @@ Avslutt med å printe resultatet i terminalen.
 """
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 3
 
@@ -32,7 +32,7 @@ Avslutt med å printe resultatet i terminalen.
 """
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 4
 
@@ -48,7 +48,7 @@ city = "Oslo"
 country = "Norge"
 
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
 """
 Oppgave 5
 
@@ -61,4 +61,4 @@ Hent ut følgende verdier og lagre dem i variabler:
 Deretter printer du dem ut i terminalen med et linjeskift mellom hver verdi.
 """
 
-print("\n"*3) # Ignorer
+print("\n"*1) # Ignorer
