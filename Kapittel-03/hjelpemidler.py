@@ -1,6 +1,7 @@
 # Variabler
 a = 2
 b = 5
+d = "Hei alle sammen"
 
 # Addisjon
 c = a + b

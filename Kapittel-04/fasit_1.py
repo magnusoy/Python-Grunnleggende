@@ -88,7 +88,4 @@ elif user_guess+1 == random_number:
     print("Nesten! Du bommet bare med 1!")
 else:
     print(f"Ikke i nærheten!\nDet tilfeldige nummeret var: {random_number}")
-
-
-
-
+    

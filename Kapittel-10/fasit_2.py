@@ -10,6 +10,10 @@ Lagre dette resultatet i variabel result2
 """
 
 def count_sevens(*args):
+    """
+    Counts the total number of apperances 7
+    makes in the given iterable.
+    """
     return args.count(7)
 
 numbers = [90,1,35,67,89,20,3,1,2,3,4,5,6,9,34,46,57,
@@ -46,6 +50,17 @@ calculate(make_float=True, operation="divide", first=3.5, second=5) -> 0.7
 """
 
 def calculate(**kwargs):
+    """
+    Calculates based upon the operation table.
+    The given arguments are:
+    operation: string: (add, subtract, divide, multiply)
+    make_float: bool: (True or False)
+    first: int/float: (1, 3.2, -1, -54.3)
+    second : int/float: (1, 3.2, -1, -54.3)
+    
+    Returns the result of the operation
+    """
+    
     operation_lookup = {
         "add": kwargs.get("first", 0) + kwargs.get("second", 0),
         "subtract": kwargs.get("first", 0) - kwargs.get("second", 0),

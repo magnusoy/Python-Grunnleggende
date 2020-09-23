@@ -12,7 +12,13 @@ contains_pink("pink") -> True
 contains_pink("PiNK") -> False
 contains_pink(1, 2, 3) -> False
 """
+
 def contains_pink(*colors):
+    """
+    Returns True if 'pink' is present in the
+    given arguments. Else returns False
+    """
+    
     return "pink" in colors
 
 print(contains_pink(21, "pink"))
@@ -37,7 +43,14 @@ combine_words("Fantastisk", suffix="bakerst") -> "Fantastiskbakerst"
 combine_words("Arbeid", suffix="er") -> "Arbeider"
 combine_words("mann", prefix="Salgs") -> "Salgsmann"
 """
+
 def combine_words(word, **kwargs):
+    """
+    Combines the given word with either
+    a suffix or prefix. Dependen on the given
+    keys in **kwargs.
+    """
+
     if "suffix" in kwargs:
         return word + kwargs["suffix"]
     elif "prefix" in kwargs:

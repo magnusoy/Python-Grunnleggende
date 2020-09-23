@@ -15,7 +15,7 @@ else:
     print("Teksten inneholder IKKE ordet brød!")
 
 
-print("\n"*3)
+print("\n"*1)
 """
 Oppgave 2
 
@@ -32,7 +32,7 @@ else:
     print("Teksten inneholder IKKE ordene brød og ost!")
 
 
-print("\n"*3)
+print("\n"*1)
 """
 Oppgave 3
 
@@ -49,7 +49,7 @@ else:
     print("Teksten inneholder IKKE noen matvarer!")
 
 
-print("\n"*3)
+print("\n"*1)
 """
 Oppgave 4
 
@@ -73,7 +73,7 @@ else:
     print("Teksten inneholder IKKE ordet!")
 
 
-print("\n"*3)
+print("\n"*1)
 """
 Oppgave 5
 
@@ -97,7 +97,7 @@ else:
         print("Tallet inneholder ikke 1 eller 7...")
 
 
-print("\n"*3)
+print("\n"*1)
 """
 Oppgave 6 (Utfordring)
 https://no.wikipedia.org/wiki/Stein,_saks,_papir

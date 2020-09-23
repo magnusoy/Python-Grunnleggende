@@ -63,6 +63,15 @@ if 1 in lst:
 big_lst = list(range(1001))
 print(big_lst)
 
+# Generer en stor liste fra 0 - 1000
+big_lst = [x for x in range(1001)]
+print(big_lst)
+
 # Generer en liste fra 0 - 100 med partall
 even_numbers = []
 even_numbers.append(list(range(0, 101, 2)))
+print(even_numbers)
+
+# Generer en liste fra 0 - 100 med partall
+even_numbers = [x for x in range(0, 100) if x % 2 == 0]
+print(even_numbers)
