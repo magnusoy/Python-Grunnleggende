@@ -56,7 +56,8 @@ Oppgave 5
 
 En bruker skriver inn et tall.
 Finn ut om tallet er et partall eller oddetall.
-Om tallet er et oddetall, så skal du sjekke om det er et primtall.
+Om tallet er et oddetall, så skal du sjekke om tallet inneholder 1 eller 7.
+Eksempel: 1,7, 11, 177, 21, 31, 101, 567
 
 """
 
