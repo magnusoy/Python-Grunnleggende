@@ -12,6 +12,9 @@ for name in names:
     first_letters.append(name[0])
 print(first_letters)
 
+first_letters = [name[0] for name in names]
+print(first_letters)
+
 """
 Oppgave 2
 
@@ -25,6 +28,9 @@ even_numbers = []
 for number in numbers:
     if number % 2 == 0:
         even_numbers.append(number)
+print(even_numbers)
+
+even_numbers = [number for number in numbers if number % 2 == 0]
 print(even_numbers)
 
 """
@@ -41,6 +47,8 @@ for word in words:
     words_reversed.append(word_reversed)
 print(words_reversed)
 
+words_reversed = [word[::-1] for word in words]
+print(words_reversed)
 
 """
 Oppgave 4
@@ -60,6 +68,8 @@ for lst in nested_list:
     sum_list.append(total)
 print(sum_list)
 
+sum_list = [sum(value) for value in [lst for lst in nested_list]]
+print(sum_list)
 """
 Oppgave 5
 
