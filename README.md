@@ -3,7 +3,7 @@
 
 ## Introduksjon
 
-`Python-Grunnleggende` er et nettkurs for [Utdannet.no](https://www.utdannet.no/) og tar for seg det grunnleggende innen programmering i Python.
+`Python-Grunnleggende` er et nettkurs for [Utdannet.no](https://www.utdannet.no/kurs/python-grunnkurs/) og tar for seg det grunnleggende innen programmering i Python.
 
 Ingen forkunnskaper er nødvendig for å ta dette nettkurset.
 
